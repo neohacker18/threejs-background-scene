@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital@1&family=Space+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <title>Vite App</title>
+    <style>
+      body {
+        margin: 0px;
+      }
+
+      .absolute {
+        position: absolute;
+      }
+      .text-white {
+        color: white;
+      }
+
+      .font-exo {
+        font-family: "Exo 2", sans-serif;
+      }
+      .font-space-mono {
+        font-family: "Space Mono", monospace;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <div
+        class="absolute text-white text-center"
+        style="top: 50%; transform: translate(-50%, -50%); left: 50%"
+      >
+        <h1 class="font-exo" style="font-size:4rem;">ARYAN SETHI</h1>
+      </div>
+      <div class="twitter social-icon">
+        <a href="https://twitter.com/christopher4lis" target="_blank"></a>
+        <i class="fa fa-twitter fa-lg"></i>
+      </div>
+    
+      <div class="youtube social-icon">
+        <a href="https://www.youtube.com/c/chriscourses" target="_blank"></a>
+        <i class="fa fa-youtube fa-lg"></i>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
