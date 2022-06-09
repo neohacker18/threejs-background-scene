@@ -1,6 +1,6 @@
 # threejs-background-scene
 
-#Requirements
+# Requirements
 
 `npm install three`
 
